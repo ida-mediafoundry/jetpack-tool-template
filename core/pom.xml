@@ -47,12 +47,12 @@
                         <!-- Import any version of javax.inject, to allow running on multiple versions of AEM -->
                         <Import-Package>javax.inject;version=0.0.0,*</Import-Package>
                         <Sling-Model-Packages>
-                            be.ida.jetpack.toolname.models,
+                            be.ida-mediafoundry.jetpack.toolname.models,
                         </Sling-Model-Packages>
                         <Export-Package>
-                            be.ida.jetpack.toolname.servlets,
-                            be.ida.jetpack.toolname.services,
-                            be.ida.jetpack.toolname.models,
+                            be.ida-mediafoundry.jetpack.toolname.servlets,
+                            be.ida-mediafoundry.jetpack.toolname.services,
+                            be.ida-mediafoundry.jetpack.toolname.models,
                         </Export-Package>
                         <Service-Component>OSGI-INF/*</Service-Component>
                     </instructions>
