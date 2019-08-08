@@ -3,12 +3,12 @@
         xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
         jcr:primaryType="nt:unstructured"
         jcr:title="Jetpack (by iDA)">
-    <patchsystem
+    <toolname
     jcr:primaryType="nt:unstructured"
-    jcr:title="Patch System"
-    jcr:description="Manage Groovy Patch System"
-    href="/jetpack/patch-system.html"
-    consoleId="jetpack-patch-system"
+    jcr:title="Tool Name"
+    jcr:description="Manage Tool Name"
+    href="/jetpack/tool-name.html"
+    consoleId="jetpack-tool-name"
     icon="shuffle"
     order="{Long}200"/>
 </jcr:root>

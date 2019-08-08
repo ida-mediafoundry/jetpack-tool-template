@@ -3,6 +3,6 @@
           jcr:primaryType="rep:ACL">
     <allow
             jcr:primaryType="rep:GrantACE"
-            rep:principalName="jetpack-patch-system"
+            rep:principalName="jetpack-tool-name"
             rep:privileges="{Name}[jcr:all]"/>
 </jcr:root>

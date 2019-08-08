@@ -1,4 +1,12 @@
-[![Build Status](https://travis-ci.org/ida-mediafoundry/jetpack-tool-template.svg?branch=master)](https://travis-ci.org/ida-mediafoundry/jetpack-tool-template)
+[![Build Status](https://travis-ci.org/ida-mediafoundry/jetpack-tool-name.svg?branch=master)](https://travis-ci.org/ida-mediafoundry/jetpack-tool-name)
+
+After using this template to create a new tool repository,
+replace all occurences of the following strings with the new tool name
+
+- Tool Name ( 9 occurences ) 
+- tool-name ( 14 occurences)
+- toolname ( 8 occurences )
+
 
 # Jetpack - Tool Name
 (powered by iDA Mediafoundry)

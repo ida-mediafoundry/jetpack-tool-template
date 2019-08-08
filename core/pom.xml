@@ -3,16 +3,16 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>be.ida.jetpack</groupId>
-        <artifactId>patch-system</artifactId>
-        <version>1.1.0</version>
+        <groupId>be.ida-mediafoundry.jetpack</groupId>
+        <artifactId>tool-name</artifactId>
+        <version>1.0.0</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>patch-system.core</artifactId>
+    <artifactId>tool-name.core</artifactId>
     <packaging>bundle</packaging>
-    <name>Jetpack - Patch System - Core</name>
-    <description>Core bundle for Jetpack Patch System</description>
+    <name>Jetpack - Tool Name - Core</name>
+    <description>Core bundle for Jetpack Tool Name</description>
 
     <build>
         <testResources>
@@ -47,16 +47,12 @@
                         <!-- Import any version of javax.inject, to allow running on multiple versions of AEM -->
                         <Import-Package>javax.inject;version=0.0.0,*</Import-Package>
                         <Sling-Model-Packages>
-                            be.ida.jetpack.patchsystem.models,
-                            be.ida.jetpack.patchsystem.groovy.models,
-                            be.ida.jetpack.patchsystem.ondeploy.models
+                            be.ida.jetpack.toolname.models,
                         </Sling-Model-Packages>
                         <Export-Package>
-                            be.ida.jetpack.patchsystem.servlets,
-                            be.ida.jetpack.patchsystem.services,
-                            be.ida.jetpack.patchsystem.models,
-                            be.ida.jetpack.patchsystem.groovy.models,
-                            be.ida.jetpack.patchsystem.ondeploy.models
+                            be.ida.jetpack.toolname.servlets,
+                            be.ida.jetpack.toolname.services,
+                            be.ida.jetpack.toolname.models,
                         </Export-Package>
                         <Service-Component>OSGI-INF/*</Service-Component>
                     </instructions>
@@ -148,10 +144,6 @@
             <artifactId>acs-aem-commons-bundle</artifactId>
             <groupId>com.adobe.acs</groupId>
             <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>be.ida-mediafoundry.jetpack</groupId>
-            <artifactId>carve.core</artifactId>
         </dependency>
     </dependencies>
 </project>
