@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ida-mediafoundry/jetpack-tool-name.svg?branch=master)](https://travis-ci.org/ida-mediafoundry/jetpack-tool-name)
+[![Build Status](https://travis-ci.org/ida-mediafoundry/jetpack-tool-name.svg?branch=master)](https://travis-ci.org/ida-mediafoundry/jetpack-tool-name)[![codecov](https://codecov.io/gh/ida-mediafoundry/jetpack-tool-name/branch/master/graph/badge.svg)](https://codecov.io/gh/ida-mediafoundry/jetpack-tool-name)
 
 After using this template to create a new tool repository,
 replace all occurences of the following strings with the new tool name
